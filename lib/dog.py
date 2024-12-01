@@ -3,19 +3,19 @@
 class Dog:
     # Class body goes here
     
-        
-
-    #Instance method definition
-    def bark(self): 
+    
+    def bark(self):
         print("Woof!")
+       
         
     def sit(self): 
         print("The dog is sitting.")
         
         
-fido = Dog() # first instance 
-fido.bark()
+fido = Dog() 
+fido.__dir__() # allows us to call a variable or function.  = Instance variable. 
+fido.bark() # 
+fido.sit() # 
 snoopy = Dog()
-snoopy.bark() # sencond instance 
-
+snoopy.bark() 
 

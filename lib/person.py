@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 
 class Person:
-    # Class body goes here
-    #Instance method definition
-    def talk(self): # method 1. 
+    #Instance method definition/ function 
+    def talk(self): # method / function 1. 
         print("Hello World!")
         
-    def walk(self): # method 2 
+    def walk(self): # method/function 2 
         print("The person is walking.")
         
 # To call the class we have to have: 
